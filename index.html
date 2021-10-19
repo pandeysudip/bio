@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sudip,s page</title>
+    <title>Sudip's page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
     <!--navbar-->
-    <nav class="navbar navbar-expand-lg  navbar-dark">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
       <div class="container">
         <button 
           class="navbar-toggler" 
@@ -19,10 +19,11 @@
           data-bs-target="#navmenu"
         >
         <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navmenu">
           <ul class="navbar-nav ms-auto" >
             <li class="nav-item">
-              <a href="" class="nav-link lead">Home</a>
+              <a href="" class="nav-link lead  text-primary">Home</a>
             </li>
             <li class="nav-item">
               <a href="" class="nav-link lead text-primary">Education</a>
@@ -49,24 +50,32 @@
               <a href="" class="nav-link lead text-primary">Contact</a>
             </li>
           </ul>
+          
+        </div>
+        <div class="input-group rounded">
+          <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+          aria-describedby="search-addon" />
+          <span class="input-group-text border-0" id="search-addon">
+            <i class="fas fa-search"></i>
+          </span>
         </div>
       </div>
       
     </nav>
     <!--biography-->
-    <section class="bg-dark text-light p-5 text-center text-sm-start">
+    <section class="bg-dark text-light p-5 p-lg-0 pt-lg-3 text-center text-sm-start">
       <div class="container">
-        <div class="d-lg-flex">
+        <div class="d-lg-flex ">
           <div>
-            <img class="img-fluid w-50" src="images/sudip.JPG" alt="my picture">
+            <img class="img-fluid w-50 rounded-circle d-none d-sm-block" src="images/sudip.JPG" alt="my picture">
             <h2>Sudip Pandey</h2>
             <p class="title">Postdoctoral Scholar</p>
             <p class="university">University of California San Diego</p>
           </div>
-          <div>
+          <div class="align-items-center justify-content-between">
             <h1 class="text-info">Biography</h1>
             <p class="lead">Applied physicist with 8+ years of research experience in design, synthesis, and characterization of multifunctional nanoscale materials with expertise in thin film processing, vacuum systems, materials properties, equipment development, big data analysis, machine learning, half metals, spintronics, superconductors, neutron and Xray measurements. Extensive experience in materials fabrication and characterization at different US National Labs (APS, ALS, NSLS2, NIST, ORNL), Nano3 cleanroom facility of Calit2, and Center for Memory and Recording Research of UC San Diego. Passionate about learning new things and techniques as well as employing knowledge and skills to yield solutions to various challenges in science and technology.
-              <div>
+              <div >
                 <h2><span class="text-warning">Research Interest</span></h2>
                 <ul class="intersts">
                   <li>•Interfacial spin structure, spin-triplet superconductivity, and long-range proximity effects in magnetic-superconducting heterostructures</li>
@@ -83,15 +92,78 @@
       </div>
     </section>
     <!--education-->
-    <!--skills-->
-    <!--awards-->
-    <section class="bg-secondary text-light p-5 text-center text-sm-start">
+    <section class="p-5 bg-info">
       <div class="container">
         <div class="d-lg-flex">
           <div>
-            <h1 class=" p-3 text-center">Awards</h1>
+            <h1 class=" p-5  text-center">Education</h1>
           </div>
-            <ul class="lead text-dark">
+          <div class="row text-center">
+            <div class="col-md">
+              <div class="card bg-dark text-light">
+                <div class="card-body text-center">
+                  <div class="card-image">
+                    <img class="img-fluid rounded-circle " src="images/siuc.png" alt="siuc picture" />
+                  </div>
+                  <h3 class="card-title mb-3">
+                    Ph.D. Applied Physics
+                  </h3>
+                  <p class="card-text">
+                    August 2015-December 2018
+                    <a href="https://siu.edu/" target="_blank" >Southern Illinois University Carbondale</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="card bg-primary text-light">
+                <div class="card-body text-center">
+                  <div class="card-image">
+                    <img class="img-fluid rounded-circle " src="images/siuc.png" alt="siuc picture" />
+                  </div>
+                  <h3 class="card-title mb-3">
+                    M.S Physics
+                  </h3>
+                  <p class="card-text">
+                    August 2013 - August 2015
+                  </p>
+                  <p class="card-text">
+                    <a href="https://siu.edu/" target="_blank" >Southern Illinois University Carbondale</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="card bg-secondary text-dark">
+                <div class="card-body text-center">
+                  <div class="card-image">
+                    <img class="img-fluid rounded-circle " src="images/tu.jpg" alt="tu picture" />
+                  </div>
+                  <h3 class="card-title mb-3">
+                    M.Sc Physics
+                  </h3>
+                  <p class="card-text">
+                    August 2010-December 2012
+                  </p>
+                  <p class="card-text"></p>
+                    <a href="https://tucdp.edu.np/" target="_blank" >Tribhuvan University</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--skills-->
+    <!--awards-->
+    <section class="bg-dark text-light p-5 text-center text-sm-start">
+      <div class="container">
+        <div class="d-lg-flex">
+          <div>
+            <h1 class=" p-5 pr-5 text-center">Awards</h1>
+          </div>
+            <ul class="lead text-light">
               <li ><a href="https://gradschool.siu.edu/about-us/awards/award-dissertation.php" target="_blank" >Outstanding Dissertation Award</a>, Southern Illinois University, Carbondale 2020</li>
               <li ><a href="https://gradschool.siu.edu/about-us/awards/award-thesis.php" target="_blank" >Outstanding Master’s Thesis Award</a>, Southern Illinois University, Carbondale 2015</li>
               <li>•	Doctoral Fellowship, Graduate School, Southern Illinois University, Carbondale2017</li>
@@ -113,15 +185,171 @@
     </div>
     </section>
     <!--experience-->
+    <section class="p-5 bg-secondary">
+      <div class="container">
+        <div class="d-lg-flex">
+          <div>
+            <h1 class=" p-5  text-center">Experience</h1>
+          </div>
+          <div class="row text-center">
+            <div class="col-md">
+              <div class="card bg-dark text-light">
+                <div class="card-body text-center">
+                  <div class="card-image">
+                    <img class="img-fluid rounded-circle " src="images/ucsd.png" alt="ucsd picture" />
+                  </div>
+                  <h3 class="card-title mb-3">
+                    Postdoctoral Researcher
+                  </h3>
+                  <p class="card-text">
+                    Feburary 04, 2019 - Present
+                    <a href="https://siu.edu/" target="_blank" >University of California San Diego</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="card bg-primary text-light">
+                <div class="card-body text-center">
+                  <div class="card-image">
+                    <img class="img-fluid rounded-circle " src="images/siuc.png" alt="siuc picture" />
+                  </div>
+                  <h3 class="card-title mb-3">
+                    Research Assistant
+                  </h3>
+                  <p class="card-text">
+                    Oct. 2013 - Dec 2018
+                  </p>
+                  <p class="card-text"></p>
+                    <a href="https://siu.edu/" target="_blank" >Southern Illinois University Carbondale</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="card bg-primary text-light">
+                <div class="card-body text-center">
+                  <div class="card-image">
+                    <img class="img-fluid rounded-circle " src="images/siuc.png" alt="siuc picture" />
+                  </div>
+                  <h3 class="card-title mb-3">
+                    Teaching Assistant
+                  </h3>
+                  <p class="card-text">
+                    August 2013 - August 2017
+                  </p>
+                  <p class="card-text"></p>
+                    <a href="https://siu.edu/" target="_blank" >Southern Illinois University Carbondale</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!--projects-->
+    <section class="p-5 bg-info">
+      <div class="container">
+        <div class="d-lg-flex">
+          <div>
+            <h1 class=" p-5  text-center">Projects</h1>
+          </div>
+          <div class="column text-center">
+            <div class="col-md">
+                <div class="card-body text-center">
+                  <div class="card-image">
+                    <img class="img-fluid rounded-circle " src="images/siuc.png" alt="siuc picture" />
+                  </div>
+                  <h3 class="card-title mb-3">
+                    Neutron and x-ray scattering studies on magnetic thin films
+                  </h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus ab, quia laboriosam iusto debitis, quas quibusdam cum est fugiat earum quisquam at officiis natus labore repudiandae rerum reiciendis corporis doloribus nostrum iure totam. Exercitationem ipsum voluptas, minus quo perferendis qui? Doloribus, placeat aspernatur perspiciatis labore et rem explicabo quod at.
+                  </p>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card-body text-center">
+                  <div class="card-image">
+                    <img class="img-fluid rounded-circle " src="images/siuc.png" alt="siuc picture" />
+                  </div>
+                  <h3 class="card-title mb-3">
+                    Superconducting Spintronics
+                  </h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ab eligendi voluptate ipsam quas est vero nam at illum vitae aliquam doloremque, hic nostrum reiciendis cumque praesentium. Voluptatibus officiis et eum deserunt provident facere magnam rerum aut in, reiciendis ex labore velit sint earum soluta assumenda quaerat ullam praesentium cum.
+                  </p>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card-body text-center">
+                  <div class="card-image">
+                    <img class="img-fluid rounded-circle " src="images/tu.jpg" alt="tu picture" />
+                  </div>
+                  <h3 class="card-title mb-3">
+                    High Tc Superconductors
+                  </h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea optio ipsum, eius beatae saepe voluptatibus. Ipsum, sint! Exercitationem, iure cum non necessitatibus perferendis cumque explicabo reprehenderit minus pariatur eligendi hic distinctio nobis. Iure at, sint enim neque alias commodi reprehenderit numquam, debitis id cupiditate fuga molestiae facilis natus ratione quia.
+                  </p>
+                </div>
+            </div>
+          </div>
+          <div class="column text-center">
+            <div class="col-md">
+                <div class="card-body text-center">
+                  <div class="card-image">
+                    <img class="img-fluid rounded-circle " src="images/siuc.png" alt="siuc picture" />
+                  </div>
+                  <h3 class="card-title mb-3">
+                    Domain Wall Dynamics in antiferromagnetic system
+                  </h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id distinctio veniam a ratione asperiores? Delectus culpa omnis velit numquam nam minima libero dolore ut iure distinctio. Quibusdam earum nemo sint minima quaerat molestiae veritatis fugiat ut neque. Quos, porro dolores facilis ullam minima, sit magni fugit consequatur repudiandae placeat autem.
+                  </p>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card-body text-center">
+                  <div class="card-image">
+                    <img class="img-fluid rounded-circle " src="images/siuc.png" alt="siuc picture" />
+                  </div>
+                  <h3 class="card-title mb-3">
+                    Spin Glass Systems
+                  </h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum asperiores, doloribus molestiae quaerat modi doloremque saepe explicabo? Quo et autem sit eligendi maxime porro nihil adipisci voluptas tempore beatae praesentium repellendus inventore ut iste ipsum nobis, debitis ad, nisi voluptates itaque? Iste ut nisi saepe nihil quia necessitatibus aliquid temporibus.
+                  </p>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card-body text-center">
+                  <div class="card-image">
+                    <img class="img-fluid rounded-circle " src="images/tu.jpg" alt="tu picture" />
+                  </div>
+                  <h3 class="card-title mb-3">
+                    M.Sc Physics
+                  </h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis consequatur fuga accusantium repellat maxime nulla et facilis? Est molestiae ex, ullam, at numquam commodi doloribus sapiente tempore vero earum id quae libero sit doloremque architecto laboriosam porro ea perspiciatis veniam! Quidem ducimus corrupti aliquid accusamus excepturi non illum modi commodi!
+                  </p>
+                </div>
+            </div>
+          </div>
+          
+        </div>
+        <p>For more details about projects, please visit <a href="http://sinhagroup.ucsd.edu/" target="_blank" >Sinha Group UCSD</a></p>
+      </div>
+    </section>
     <!--talks-->
     <section class="bg-success text-light p-5 text-center text-sm-start">
       <div class="container">
         <div class="d-lg-flex">
           <div>
-            <h1 class=" p-3 text-center">Talks</h1>
+            <h1 class=" p-3 pr-5 text-center">Talks</h1>
           </div>
-          <article >
+          <div class="p-3">
             <ol class="lead">
               <li >Interfacial spin structure and spin-triplet superconductivity in magnetic-superconducting heterostructures, APS March Meeting, March 15-19 (2021)</li>
               <li>X-ray magnetic circular dichroism study of the boron substituted Ni-Mn-In thin films, International Conference on Magnetism (ICM), San Francisco, July 15-20 (2018)</li>
@@ -130,7 +358,7 @@
               <li>Magnetic and magnetocaloric properties of B doped Ni-Mn-In alloys, Canadian-American-Mexican Graduate Student Physics Conference, Oaxaca, Mexico, Sep. 9-12 (2015)</li>
             </ol>
             <p>For complete list of talks, please look at my <a href="images/resume.pdf" download>CV</a></p>
-          </article>
+          </div>
         </div> 
       </div>
     </div>
@@ -160,12 +388,6 @@
     </div>
     </section>
 
-
-
-
-
-
-    
     <footer>
       <p>Copyright &copy; 2021 pandeysudip</p>
     </footer>
