@@ -1,0 +1,122 @@
+
+body{
+    margin: 0;
+    font-family:Arial;
+}
+
+/* for id # and for class.*/
+/* no need to nested inside but easier to read*/
+
+a{
+    color: blue;
+}
+
+ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.skills{
+    background: rgb(162, 184, 223);
+    display: grid;
+    margin-top: -5em; 
+    padding-bottom:10em;
+    h1{
+        font-weight: bold;
+        font-size: 2.5em;
+    }
+    .container{
+        display: flex;
+        margin-left: 20em;
+        font-weight: bold;
+        font-size: 0.8em;
+        place-content: space-between;
+        .matlab img{
+            width: 15em;
+            height: 15em;
+            border: 2px solid #3f69df;
+            border-radius: 50%;
+            margin-left: -2em;
+        }
+        .python img{
+            width: 15em;
+            height: 15em;
+            border: 2px solid #3f69df;
+            border-radius: 50%;
+            margin-left: -2em;
+        }
+        .statistics img{
+            width: 15em;
+            height: 15em;
+            border: 2px solid #3f69df;
+            border-radius: 50%;
+            margin-left: -2em;
+        }
+    }
+}
+
+.contact-section{
+    margin-top: -1em;
+    margin-bottom: -4.5em;
+    
+    .container{
+        display: flex;
+        margin-right: -15em;
+        
+        .contact-left{
+            h2{
+                font-size: 2.5em;
+            }
+            label{
+                display: block;
+                font-size: 2 em;
+                font-weight: bold;
+                margin-bottom: 0.5em;
+            }
+            input, textarea{
+                width: 100%;
+                padding: 1em;
+                margin-bottom: 1em;
+                border-radius: 0.3em;
+                border: 1px solid gray;
+                box-sizing: border-box;  
+            }
+            .send-message{
+                background-color: blue;
+                color: white;
+                font-weight: bold;
+                font-size: 1.3em;
+                border: none;
+                border-radius: 5em;
+                display: inline-block;
+                padding: 0.8em 3em;
+                cursor: pointer;
+            }
+            p{
+                
+                color: rgb(22, 21, 17);
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+        }
+        .contact-right{
+            margin-left: 3em;
+            right: 0;
+            top: 1em;
+            right:-35em;
+            iframe{
+                width:1000px;
+                height:850px;
+            }
+
+        }
+    }
+}
+footer{
+    margin: 0em;
+    padding:1.2em;
+    background:rgb(13, 14, 13);
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+}
