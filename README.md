@@ -23,7 +23,7 @@ Small screen:
 
 ![Landing page small screen](images/head-sm.png)
 
-#### <a id="Education-page"></a>Comparisons page
+#### <a id="Education-page"></a>Education-page
 
 Large screen:
 
@@ -33,7 +33,7 @@ Small screen:
 
 ![Education page small screen](images/education-sm.png)
 
-#### <a id="Skills-page"></a>Data page
+#### <a id="Skills-page"></a>Skills-page
 
 Large screen:
 
@@ -43,7 +43,7 @@ Small screen:
 
 ![skills page small screen](images/skills1-sm.png)
 
-#### <a id="Experience-pages"></a>Visualization pages
+#### <a id="Experience-pages"></a>Experience-pages
 
 
 Large screen:
