@@ -54,7 +54,7 @@ Small screen:
 
 ![skills page small screen](images/experience-sm.png)
 
-#### <a id="Contacts-menu"></a>Navigation menu
+#### <a id="Contacts-menu"></a>Contacts-menu
 
 Large screen:
 ![Contacts](images/contact.png)
